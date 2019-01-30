@@ -14,9 +14,9 @@ import java.util.Random;
 public class Liga {
     private String[]equipos={"Celta","Depor","Barça"};
     private String[]xornadas={"X1","X2","X3"};
-    private int[][]goles={{1,1,1},
-                         {2,2,2},
-                         {3,3,3}};
+    private int[][]goles={{3,4,2},
+                         {1,2,1},
+                         {3,0,1}};
     private  int[] golesT = new int[goles.length];
 
     

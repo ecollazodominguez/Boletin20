@@ -16,13 +16,12 @@ public class Boletin20_1 {
      */
     public static void main(String[] args) {
      Liga xor = new Liga();
-     xor.creaArray();
      xor.amosar();
         System.out.println("*****");
      xor.calcularGoles();
      xor.amosarTodo();
         System.out.println("*****");
-//     xor.ordenarMenorMayor();
+     xor.ordenarMenorMayor();
      xor.amosarTodo();
         System.out.println("****");
         xor.mejorXornada();
