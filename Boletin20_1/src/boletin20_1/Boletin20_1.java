@@ -16,19 +16,7 @@ public class Boletin20_1 {
      */
     public static void main(String[] args) {
      Liga xor = new Liga();
-     xor.amosar();
-        System.out.println("*****");
-     xor.calcularGoles();
-     xor.amosarTodo();
-        System.out.println("*****");
-     xor.ordenarMenorMayor();
-     xor.amosarTodo();
-        System.out.println("****");
-        xor.mejorXornada();
-        System.out.println("*****");
-        xor.maisGoles();
-        System.out.println("*****");
-        xor.consultaGoles("Celta", "X2");
+     xor.menu();
     }
     
 }
